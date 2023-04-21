@@ -1,0 +1,48 @@
+*{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 14;
+}
+
+.img_1{
+   
+   list-style-position: inside;
+   list-style-image:url(/Hw/hw3.1/icons/unchecked_16.png);
+   padding: 10px 40px;
+   margin-right: 40px;
+     
+}
+
+
+.img_2{
+   text-decoration: line-through;
+   list-style-position: inside;
+   list-style-image:url(/Hw/hw3.1/icons/checked_16.png);
+   padding: 10px 40px;
+   text-align: left;
+   margin-right: 40px;
+      
+}
+
+h2{
+   margin-left: 40px;
+}
+
+li:nth-child(odd){
+   background: rgb(203, 203, 236);
+}
+
+li:nth-child(even){
+   background: rgb(237, 234, 240);
+}
+
+li::after{
+   content: "\2716";
+   color: red;
+   margin-left: 10px;
+   display: inline-block;
+            
+}
+
+li.img_2{
+   background: wheat;
+}
